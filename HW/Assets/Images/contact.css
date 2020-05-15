@@ -1,0 +1,96 @@
+body {
+    background-color: lightgray;
+}
+
+#header {
+    background-color: cadetblue;
+    height: 70px;
+}
+
+#nav {
+    background-color: white;
+    width: 100%;
+}
+
+#navbar {
+    width: 100%;
+    margin-left: 16.8%;
+}
+
+#james {
+    font-size: 40px;
+    text-align: center; 
+}
+
+#container {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+#h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+ }
+
+ #form {
+     padding-left: 20px;
+     padding-right: 20px;
+ }
+
+ #footer {
+    height: 40px;
+    background-color: cadetblue;
+    text-align: center;
+    padding-top: 5px;
+}
+
+@media only screen and (min-width:768px) {
+   #nav {
+        position: absolute;
+        top: 0px;
+        left: 45%;
+        height: 70px;
+    }
+
+    #links {
+        position: relative;
+        right: 50px;
+
+    }
+
+    #james {
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    #navbar {
+        width: 50%;
+
+    }
+    #header {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:980px){
+    #container {
+        width: 43.5%;
+    }
+
+    #navbar {
+        width: 100%;
+
+    }
+
+    #nav {
+        position: absolute;
+        top: 0px;
+        right: 20%;
+        height: 70px;
+    }
+}

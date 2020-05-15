@@ -1,0 +1,93 @@
+body {
+    background-color: lightgray;
+}
+
+#header {
+    background-color: cadetblue;
+    height: 70px;
+}
+
+#nav {
+    background-color: white;
+    width: 100%;
+}
+
+#navbar {
+    width: 100%;
+}
+
+#james {
+    font-size: 40px;
+    text-align: center; 
+}
+
+#container {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+#text {
+    width: 90%;
+    padding-top: 10px;
+    width: 95%;
+}
+
+#h1 {
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+#footer {
+    height: 40px;
+    background-color: cadetblue;
+    text-align: center;
+    padding-top: 5px;
+}
+
+@media only screen and (min-width:768px) {
+    #nav {
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        height: 70px;
+    }
+
+    #james {
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    #navbar {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:980px) {
+    #nav {
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        height: 70px;
+    }
+
+    #navbar {
+        width: 100%;
+    }
+
+    #container {
+        width: 48%;
+        margin-top: 70px;
+    }
+
+    #footer {
+        position: relative;
+        bottom: 0%;
+    }
+
+
+
+
+}

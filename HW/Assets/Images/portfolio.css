@@ -1,0 +1,144 @@
+body {
+    background-color: lightgray;
+}
+
+#container {
+    background-color: white;
+    padding-left: 10px;
+    margin: 15px;
+    margin-bottom: 200px;
+    margin-top: 70px;
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
+.header {
+    background-color: cadetblue;
+    color: white;
+}
+
+#header {
+    height: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#nav {
+    background-color: white;
+}
+
+.footer {
+    background-color: cadetblue;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    height: 40px;
+}
+
+#copyright {
+    padding-top: 5px;
+}
+
+h1 {
+    color: cadetblue;
+    margin-left: 20px;
+}
+
+#about {
+    margin-left: 90px;
+}
+
+#pic1 {
+    padding-bottom: 50px; 
+}
+
+#pic2 {
+    padding-bottom: 50px;
+}
+
+#pic3 {
+    padding-bottom: 50px;
+}
+
+#pic4 {
+    padding-bottom: 50px;
+}
+
+@media only screen and (min-width:768px) {
+    #nav {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 70px;
+        width: 56%;
+    }
+
+    #james {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    #navbar {
+        width: 100%;
+    }
+
+    #pic2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #pic4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:980px) {
+    #nav {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 70px;
+        width: 56%;
+    }
+
+    #navbar {
+        width: 100%;
+        
+    }
+
+    #about {
+        position: relative;
+        top: 10px;
+    }
+
+    #contact {
+        position: relative;
+        top: -30px;
+        left: 100%;
+    }
+
+    #portfolio {
+        position: relative;
+        top: -30px;
+        left: 200px;
+    }
+
+    #pic2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #container {
+        width: 90%;
+    }
+
+
+
+}
