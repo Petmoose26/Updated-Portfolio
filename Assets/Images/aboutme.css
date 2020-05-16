@@ -63,6 +63,12 @@ body {
     #navbar {
         width: 50%;
     }
+
+    #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width:980px) {
